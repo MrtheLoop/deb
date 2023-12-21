@@ -17,3 +17,14 @@ deb-src http://deb.debian.org/debian bullseye-updates main contrib non-free
 deb http://deb.debian.org/debian bullseye-backports main contrib non-free
 
 deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
+
+
+
+ subnet 172.16.0.0 netmask 255.255.248.0 {
+ range 172.16.2.0 172.16.5.255;
+ option routers 172.16.0.3;
+ option domain-name "hotsprings.internet";
+ option domain-name-servers 172.16.0.3;
+ option broadcast-address 172.16.7.255;
+ }
+ include "/var/sisInfo/conf/clientes.dhcp";
