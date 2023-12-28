@@ -28,3 +28,6 @@ deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
  option broadcast-address 172.16.7.255;
  }
  include "/var/sisInfo/conf/clientes.dhcp";
+
+
+export PATH=$PATH:/sbin:/usr/sbin:/usr/local/sbin
