@@ -1,0 +1,37 @@
+# JDK 8
+apt update
+apt install openjdk-8-jdk
+
+Postgresql 9.6
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install postgresql-9.6 postgresql-contrib-9.6
+
+Erlang
+
+wget https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
+echo "deb https://packages.erlang-solutions.com/ubuntu $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/erlang-solutions.list
+sudo apt-get update
+sudo apt-get install erlang=1:19.2
+
+RabbitMQ
+wget -O- https://www.rabbitmq.com/rabbitmq-release-signing-key.asc | sudo apt-key add -
+
+sudo tee /etc/apt/sources.list.d/bintray.rabbitmq.list <<EOF
+deb https://dl.bintray.com/rabbitmq-erlang/debian xenial erlang
+deb https://dl.bintray.com/rabbitmq/debian xenial main
+EOF
+
+sudo apt-get update
+sudo apt-get install rabbitmq-server=3.6.15-1
+sudo systemctl start rabbitmq-server
+sudo systemctl enable rabbitmq-server
+
+OpenTFTP
+sudo apt-get update
+sudo apt-get install tftpd-hpa
+
+sudo systemctl status tftpd-hpa
+
