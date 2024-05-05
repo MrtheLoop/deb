@@ -33,4 +33,4 @@ deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
 export PATH=$PATH:/sbin:/usr/sbin:/usr/local/sbin
 https://holistic-spy-4a4.notion.site/d8a8c18f4a7d463a90550809876c50f6?v=e2faea2e48a04c369f2643560db7e037&pvs=4
 
-https://drive.google.com/file/d/12e31QAGGeDpEBGbeHzMqlz3leG1u_g4l/view
+https://drive.google.com/file/d/1rNcA_Dr4g2dXNF-CiaGFkFGmS23LGH0H/view
