@@ -3,3 +3,5 @@ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
 sudo apt-get install postgresql-9.6 postgresql-contrib-9.6
+
+https://www.icloud.com/attachment/?u=https%3A%2F%2Fcvws.icloud-content.com%2FB%2FARiTocJheNU0FOtJY2bmeb7BS_hcAXUwNxbfe3zPBLVUBTk8SsW73DF5%2F%24%7Bf%7D%3Fo%3DAk80Qg4ih8ffJGmxTM2gN4CY2II84J6goLl4mFnISuy8%26v%3D1%26x%3D3%26a%3DCAognpqy60ko-bkdOfG_T6Py2wYL9lDAGeuuPjyO0VP4OooSdhDix5u_-DEY4teWk4IyIgEAKgkC6AMA_13x4ylSBMFL-FxaBLvcMXlqJdMK2nZjRgmYfCrGs_A_APs79euJ1s2RB4uBRX8DvubITSem3BZyJZGy88ZG_aS-pdaJSmJsdc0rMG0MG9NuC-S3nSHywnj_VQPzdZc%26e%3D1718564006%26fl%3D%26r%3D906B2208-0015-4CE7-8EDD-4CDD738DF65F-1%26k%3D%24%7Buk%7D%26ckc%3Dcom.apple.largeattachment%26ckz%3DD31E74AA-7BAE-42D2-BE61-D45AAFBF5360%26p%3D115%26s%3DLbvLBLzTCn1HGlxHMjl58jnKPvI&uk=GjrfURq9C_rwDkUHpB83GQ&f=neonews_player_release_8_2_7_485.apk&sz=53954581
